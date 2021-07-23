@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:mariadb://112.217.238.122:3306/kshdb
+    driver-class-name: org.mariadb.jdbc.Driver
+    username: KSH
+    password: KSH
+  jpa:
+    open-in-view: false
+    generate-ddl: true
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+server:
+  port: 8582
